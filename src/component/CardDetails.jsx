@@ -12,7 +12,7 @@ function CardDetails(props) {
     
     {/* Center Content */}
     <div className={`relative flex flex-col items-center justify-start md:justify-center h-full p-5 ${props.textColor}`}>
-    <h1 className="text-4xl md:text-6xl font-bold mb-8 ">{props.title}</h1>
+    <h1 className="text-4xl md:text-6xl font-bold mb-2 ">{props.title}</h1>
       <p className="text-sm md:text-xl mb-10 text-center md:w-[60vw]">
         {props.description}
         </p>
